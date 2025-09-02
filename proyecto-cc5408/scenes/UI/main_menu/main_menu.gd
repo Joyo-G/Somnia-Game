@@ -6,6 +6,7 @@ extends MarginContainer
 @onready var quit: Button = %Quit
 @onready var select_level: Button = %SelectLevel
 @onready var effect_timer: Timer = $EffectTimer
+@onready var settings: Button = %Settings
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
