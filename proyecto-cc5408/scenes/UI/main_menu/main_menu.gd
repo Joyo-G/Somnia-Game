@@ -8,6 +8,7 @@ extends MarginContainer
 @onready var effect_timer: Timer = $EffectTimer
 @onready var settings: Button = %Settings
 
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	LevelManager.current_level_index = 0
