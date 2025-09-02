@@ -16,6 +16,7 @@ func _ready() -> void:
 	select_level.pressed.connect(func(): get_tree().change_scene_to_file("res://scenes/UI/level_select_menu/levels_select_menu.tscn"))
 	credits.pressed.connect(func(): get_tree().change_scene_to_file("res://scenes/UI/Credits/credits.tscn"))
 	quit.pressed.connect(func(): get_tree().quit())
+	settings.pressed.connect(func(): get_tree().change_scene_to_file("res://scenes/UI/settings/settings.tscn"))
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
